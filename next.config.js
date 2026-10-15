@@ -3,6 +3,7 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  serverExternalPackages: ["genkit", "@genkit-ai/google-genai"],
 };
 
 module.exports = nextConfig;
